@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(kepek/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#menuszalag{
+    width: 100%;
+    background-color: var(--menu);
+    color: var(--feher);
+    height: 50px;
+    text-align: center;
+}
+#menuszalag ul{
+    display: inline;
+}
+#menuszalag ul li{
+    display: inline;
+    padding: 10px;
+    line-height: 50px;
+    color: white;
+    background-color: red;
+    border: 10px black double;
+}
+a{
+    color: var(--feher);
+    text-decoration: none;
+}
+h1{
+    color: white;
+    background-color: red;
+    border: 20px double black;
+    text-align: center;
+}
